@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SS.View;
+using TMPro;
 
 public class HomeController : Controller
 {
@@ -10,6 +11,11 @@ public class HomeController : Controller
     public override string SceneName()
     {
         return HOME_SCENE_NAME;
+    }
+
+    public override void OnActive(object data)
+    {
+        base.OnActive(data);
     }
 
     public void VoteClick()

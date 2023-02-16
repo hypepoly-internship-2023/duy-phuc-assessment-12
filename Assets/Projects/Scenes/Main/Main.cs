@@ -20,6 +20,7 @@ public class Main : MonoBehaviour
                 //Manager.ShieldColor = new Color(0,0,0,30);
                 Manager.LoadingSceneName = LoadingController.LOADING_SCENE_NAME;
                 Manager.Load(HomeController.HOME_SCENE_NAME);
+                
             }
         }
     }
